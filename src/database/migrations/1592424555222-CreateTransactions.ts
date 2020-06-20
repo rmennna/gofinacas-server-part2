@@ -44,7 +44,7 @@ export default class CreateTransactions1592424555222 implements MigrationInterfa
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
-        await queryRunner.dropTable('transacitions')
+        await queryRunner.dropTable('transactions')
     }
 
 }
